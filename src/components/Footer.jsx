@@ -1,18 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
-        <h2>Miembros del equipo:</h2>
-        <ul>
-            <li>Javier García</li>
-            <li>Javier López</li>
-            <li>Javier Martínez</li>
-            <li>Javier Pérez</li>
-            <li>Javier Rodríguez</li>
+    <footer>
+        <ul className="footer-links">
+            <li><Link to="/about">Quiénes somos</Link></li>
+            <li><a href="#privacidad">Política de Privacidad</a></li>
+            <li><a href="#cookies">Política de Cookies</a></li>
         </ul>
-    </div>
-  )
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
