@@ -34,6 +34,11 @@ const AboutN01 = () => {
                         <strong>Francisco José Saiz Ezquerra de Paz</strong>
                         <p>Gestión del repositorio, coordinación del equipo y validación de pruebas.</p>
                     </li>
+
+                    <li>
+                        <strong>Alba Duro Cabrera</strong>
+                        <p>Validación de pruebas y documentación del proyecto.</p>
+                    </li>
                 </ul>
             </div>
         </div>
