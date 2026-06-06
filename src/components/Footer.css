@@ -24,6 +24,14 @@ footer {
     transition: color 0.2s;
 }
 
+.footer-autores a {
+    color: var(--surface);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+    list-style: none;
+    text-align: right;
+}
 .footer-links a:hover {
     color: var(--secondary);
 }
