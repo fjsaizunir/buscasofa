@@ -10,6 +10,13 @@ const Footer = () => {
             <li><a href="#privacidad">Política de Privacidad</a></li>
             <li><a href="#cookies">Política de Cookies</a></li>
         </ul>
+        <ul className="footer-links">
+            <li><a span="autor1">Lidia Logroño Ramas</a></li>
+            <li><a span="autor2">Alba Duro Cabrera</a></li>
+            <li><a span="autor3">Marco Antonio Fernández Heras</a></li>
+            <li><a span="autor4">Pablo Pérez-Aradros Calvo</a></li>
+            <li><a span="autor5">Francisco José Saiz Ezquerra de Paz</a></li>
+        </ul>
     </footer>
   );
 }
