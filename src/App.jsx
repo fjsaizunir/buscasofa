@@ -9,7 +9,7 @@ import { FuelApi } from './apis/FuelApi';
 
 import Header from './components/Header';
 import FuelMap from './components/FuelMap';
-import About from './components/About';
+import About from './components/AboutN01';
 import Home from './components/Home';
 import StationDetail from './components/StationDetail';
 import FuelTable from './components/FuelTable';
