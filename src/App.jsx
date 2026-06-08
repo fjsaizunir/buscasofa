@@ -73,7 +73,7 @@ function App() {
         <Routes>
           <Route path="/registro" element={<Register />} />
           <Route path="/login" element={<Login onLogin={setUser} />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutN01 />} />
           <Route path="/" element={<Home stations={stations} />} />
           <Route path="/mapa" element={<FuelMap stations={stations} />} />
           <Route path="/lista" element={<FuelTable stations={stations} />} />
